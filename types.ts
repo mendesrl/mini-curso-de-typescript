@@ -51,3 +51,8 @@ let cart: object;
 cart = {
     key: "23"
 }
+
+//Type Inference
+
+let message2 = "Ola mundo"
+message2 = "Nova string"
