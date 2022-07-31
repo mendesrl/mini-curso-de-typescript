@@ -1,6 +1,6 @@
 const inputNum1 = document.getElementById('num1') as HTMLInputElement;
 const inputNum2 = document.getElementById('num2') as HTMLInputElement;
-const button = document.getElementById('button') as HTMLButtonElement;
+const button = document.getElementById('button')!;
 
 function sum(a: number, b: number) {
     return a + b;
